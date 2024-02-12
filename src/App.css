@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  margin-top: 3rem;
+  margin-right: 3rem;
+  background-color: #333143;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+  }
+}
